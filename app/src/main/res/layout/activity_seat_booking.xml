@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient"
+    tools:context=".SeatBookingActivity">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="313dp"
+        android:layout_height="100dp"
+        android:height="50dp"
+        android:layout_above="@+id/checkBox"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-30dp"
+        android:layout_marginTop="2.5dp"
+        android:background="#CCC"
+        android:text="Screen"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="36dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="A1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_marginEnd="12dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="A2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_marginStart="65dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="A3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_marginStart="123dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="A4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_marginEnd="71dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="A5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/checkBox"
+        android:layout_marginEnd="130dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="A6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="72dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="B1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox6"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:checked="false"
+        android:cursorVisible="true"
+        android:editable="true"
+        android:padding="2dp"
+        android:text="B2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox6"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="B3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox6"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="B4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox6"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="B5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox6"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="B6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="108dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="C1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:buttonTint="#FFFF00"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox12"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:checked="false"
+        android:cursorVisible="true"
+        android:padding="2dp"
+        android:text="C2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox12"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="C3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox12"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="C4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox12"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="C5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox12"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="C6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="144dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="D1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:buttonTint="#FFFF00"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox18"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="D2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox19"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="D3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox19"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="D4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox19"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="D5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox19"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="D6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="180dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="E1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox24"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="E2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox24"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="E3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox24"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="E4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox24"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="E5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox24"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="E6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="216dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="F1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox30"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="F2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox30"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="F3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox30"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="F4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox30"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="F5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox30"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="F6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="252dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="G1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox36"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="G2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox36"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="G3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox36"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="G4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox36"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="G5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox36"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="G6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="288dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="H1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox42"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="H2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox42"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="H3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox42"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="H4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox42"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="H5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox42"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="H6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="324dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="I1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox48"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:checked="false"
+        android:padding="2dp"
+        android:text="I2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox48"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="I3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox51"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox48"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="I4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox52"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox48"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="I5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox53"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox48"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="I6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+    <CheckBox
+        android:id="@+id/checkBox54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="360dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="J1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox55"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox54"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="J2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox54"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="J3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox57"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox54"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="J4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox54"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="J5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox54"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="J6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginTop="396dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="K1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox60"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="K2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox62"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox60"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="K3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox63"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox60"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="K4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox64"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox60"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="K5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox65"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox60"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="K6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox66"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="432dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:padding="2dp"
+        android:text="L1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold"
+        android:buttonTint="#FFFF00"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox66"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="L2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox66"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="L3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox69"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox66"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="L4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox70"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox66"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="L5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox71"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox66"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="L6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+
+
+    <CheckBox
+        android:id="@+id/checkBox72"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="468dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="M1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox72"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="M2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox74"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox72"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="M3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox75"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox72"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="M4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox76"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox72"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="M5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox77"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox72"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="M6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox78"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="504dp"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="N1"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox79"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox2"
+        android:layout_alignTop="@+id/checkBox78"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="N2"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox80"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox3"
+        android:layout_alignTop="@+id/checkBox78"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="N3"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox81"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox5"
+        android:layout_alignTop="@+id/checkBox78"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="N4"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox82"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox4"
+        android:layout_alignTop="@+id/checkBox78"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="N5"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/checkBox83"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignTop="@+id/checkBox78"
+        android:width="50dp"
+        android:background="@color/non_booked_seat"
+        android:buttonTint="#FFFF00"
+        android:padding="2dp"
+        android:text="N6"
+        android:textColor="#000000"
+        android:textSize="10dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/checkBox"
+        android:layout_marginBottom="15dp"
+        android:width="100dp"
+        android:background="@drawable/rounded_button"
+        android:onClick="DoPayment"
+        android:text="Book Now"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/checkBox1"
+        android:layout_alignTop="@+id/button8"
+        android:background="@drawable/rounded_button"
+        android:onClick="BackToFilmList"
+        android:text="Back to Film List"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pragaseesen.chronos">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/chronos_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".ForgotPasswordActivity" />
+        <activity android:name=".ForgotPasswordVerifyActivity" />
+        <activity
+            android:name=".FilmDisplayActivity"
+            android:label="@string/title_activity_film_display"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".SeatBookingActivity" />
+        <activity android:name=".Payment" />
+        <activity android:name=".FilmDetails" />
+        <activity android:name=".AdminAddFilms" />
+        <activity android:name=".TicketDetails"></activity>
+    </application>
+
+</manifest>

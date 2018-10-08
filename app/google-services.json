@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "503344662946",
+    "firebase_url": "https://chronos-502c2.firebaseio.com",
+    "project_id": "chronos-502c2",
+    "storage_bucket": "chronos-502c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:503344662946:android:2587a35d8e82f643",
+        "android_client_info": {
+          "package_name": "com.example.pragaseesen.chronos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "503344662946-u6c2tth24ng7utghk6buj3it97u2gau1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pragaseesen.chronos",
+            "certificate_hash": "4615bbf39c72414845ce0af90b44f34aa83a3a49"
+          }
+        },
+        {
+          "client_id": "503344662946-592fnsan836amd2q0tcg1qnr5j1ece6g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKGY0lfLd6zAlAdjsGvI4GZfbVdPtjwsU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "503344662946-592fnsan836amd2q0tcg1qnr5j1ece6g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

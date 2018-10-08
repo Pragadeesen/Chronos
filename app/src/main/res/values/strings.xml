@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Chronos</string>
+    <string name="imageView2">Movie Poster</string>
+    <string name="title_activity_film_display">FilmDisplayActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_notifications">Notifications</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_no">Phone No.</string>
+    <string name="nic_number">NIC Number</string>
+    <string name="welcome_to_chronos">Welcome to Chronos</string>
+    <string name="email">Email</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="fill_all_the_fields">* Fill all the Fields *</string>
+    <string name="click_here_to_log_in">Click here to Log in</string>
+</resources>
